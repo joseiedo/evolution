@@ -1,0 +1,12 @@
+/* global */
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";
+
+/* tipografia */
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+
+/* homepage */
+@import "./homepage/banner.css";

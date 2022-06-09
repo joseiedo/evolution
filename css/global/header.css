@@ -1,0 +1,43 @@
+.header-bg {
+  background: var(--cor-p2);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header ul {
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header ul a {
+  padding: 10px;
+}
+
+@media (max-width: 520px) {
+  .header {
+    padding-bottom: 20px;
+  }
+
+  .header {
+    padding: 10px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .header-bg {
+    padding-bottom: 20px;
+  }
+
+  .header ul a {
+    background: var(--cor-p3);
+    margin-bottom: 20px;
+  }
+}

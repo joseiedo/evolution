@@ -1,0 +1,60 @@
+.banner-bg {
+  background: var(--cor-3);
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: inset 0px -120px 0px var(--cor-p0);
+}
+
+.banner {
+  height: 100%;
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.banner img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-conteudo {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.banner-conteudo .botao {
+  width: fit-content;
+}
+
+@media (max-width: 1200px) {
+  .banner-bg {
+    box-shadow: none;
+    height: 100%;
+  }
+  .banner {
+    padding-bottom: 0px;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .banner-conteudo {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .banner-conteudo p {
+    margin: 0 auto;
+    max-width: 60ch;
+  }
+
+  .banner-conteudo .botao {
+    margin: 0 auto;
+  }
+}
