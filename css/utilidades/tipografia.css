@@ -5,10 +5,20 @@
   line-height: 66px;
 }
 
-.font-2 {
+h2.font-1 {
+  line-height: 1;
+}
+.font-2,
+.font-2-l {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+.font-2-l {
+  font-weight: normal;
+  line-height: 28px;
+  color: #c9c9c9;
 }
 
 .font-3 {

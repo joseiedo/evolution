@@ -58,3 +58,9 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 700px) {
+  .banner {
+    padding-top: 25px;
+  }
+}

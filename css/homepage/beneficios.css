@@ -1,0 +1,46 @@
+.beneficios-bg {
+  background: var(--cor-p0);
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.beneficios-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.beneficios-item img {
+  box-shadow: -39px 41px 0px #2d105d;
+}
+.beneficios-conteudo {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.beneficios-conteudo p {
+  margin-top: 10px;
+  max-width: 40ch;
+}
+
+@media (max-width: 1200px) {
+  .beneficios {
+    padding-top: 20px;
+    gap: 30px;
+  }
+
+  .beneficios h1 {
+    text-align: center;
+  }
+
+  .beneficios-item {
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
