@@ -25,3 +25,14 @@
   background: var(--cor-p3);
   height: 20px;
 }
+
+@media (max-width: 600px) {
+  .frase p {
+    text-align: center;
+  }
+  .frase-detalhe::after {
+    height: 10px;
+  }
+}
+
+@media (max-width: 320px);

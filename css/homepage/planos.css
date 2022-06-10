@@ -118,3 +118,29 @@
     max-width: 100vw;
   }
 }
+
+@media (max-width: 320px) {
+  .planos-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .planos-article h1 {
+    font-size: 24px;
+  }
+
+  .planos-article h3 {
+    font-size: 24px;
+  }
+
+  .planos-article li {
+    font-size: 12px;
+  }
+
+  .planos-article a.botao {
+    font-size: 13px;
+  }
+
+  .planos-item .titulo-plano.segundo-plano {
+    padding-top: 0;
+  }
+}

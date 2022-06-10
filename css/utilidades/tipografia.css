@@ -77,4 +77,22 @@ h2.font-1 {
   .titulo-plano span {
     font-size: 13px;
   }
+
+  .frase p.font-6 {
+    font-size: 54px;
+  }
+
+  .frase-detalhe::after {
+    height: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .frase p.font-6 {
+    font-size: 32px;
+  }
+
+  span.frase-detalhe::after {
+    display: none;
+  }
 }
