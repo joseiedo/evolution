@@ -1,8 +1,13 @@
-.font-1 {
+.font-1,
+.font-1-l {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 64px;
   line-height: 66px;
+}
+
+.font-1-l {
+  font-weight: lighter;
 }
 
 h2.font-1 {
@@ -15,10 +20,15 @@ h2.font-1 {
   font-size: 18px;
 }
 
-.font-2-l {
+.font-2-l,
+.font-3-l {
   font-weight: normal;
   line-height: 28px;
   color: #c9c9c9;
+}
+
+.font-3-l {
+  font-size: 24px;
 }
 
 .font-3 {
@@ -28,11 +38,37 @@ h2.font-1 {
   line-height: 26px;
 }
 
+.font-4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.font-5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
 @media (max-width: 600px) {
   .font-1 {
     font-size: 42px;
   }
   .font-3 {
     font-size: 18px;
+  }
+  .font-2-l {
+    font-size: 16px;
+  }
+
+  .titulo-plano h2 {
+    font-size: 25px;
+  }
+
+  .planos-bg h1 {
+    font-size: 36px;
+  }
+
+  .titulo-plano span {
+    font-size: 13px;
   }
 }

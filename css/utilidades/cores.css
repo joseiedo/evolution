@@ -2,11 +2,16 @@
   --cor-1: #808080;
   --cor-2: #fff;
   --cor-3: #0f0d13;
+  --cor-4: #0c0910;
   --cor-p0: #4c2093;
   --cor-p1: #4b228f;
   --cor-p2: #6533b7;
   --cor-p3: #873eff;
   --cor-p4: #b269fa;
+}
+
+.cor-4 {
+  color: #0c0910;
 }
 
 .cor-3 {
