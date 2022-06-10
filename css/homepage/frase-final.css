@@ -1,0 +1,27 @@
+.frase-bg {
+  background: var(--cor-4);
+  padding: 120px 0;
+}
+
+.frase span.cor-p3 {
+  display: block;
+}
+
+.frase p {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.frase-detalhe {
+  position: relative;
+}
+.frase-detalhe::after {
+  content: "";
+  bottom: 0;
+  left: -20px;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  background: var(--cor-p3);
+  height: 20px;
+}

@@ -11,7 +11,7 @@
   justify-content: center;
   background: var(--cor-4);
   padding-top: 120px;
-  height: 10000px;
+  padding-bottom: 120px;
 }
 
 .planos {

@@ -49,6 +49,12 @@ h2.font-1 {
   font-weight: bold;
   font-size: 32px;
 }
+
+.font-6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 96px;
+}
 @media (max-width: 600px) {
   .font-1 {
     font-size: 42px;
