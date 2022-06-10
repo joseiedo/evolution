@@ -1,0 +1,32 @@
+.footer-bg {
+  background: var(--cor-p1);
+  padding-bottom: 20px;
+}
+
+.footer-bg p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  height: 360px;
+  display: grid;
+  grid-template-columns: 5fr 4fr 3fr;
+  align-content: center;
+}
+
+.footer li {
+  text-transform: uppercase;
+}
+
+.footer li a:hover {
+  color: var(--cor-p4);
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-content: left;
+  }
+}

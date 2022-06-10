@@ -31,6 +31,17 @@
   width: fit-content;
 }
 
+@media (max-width: 1200px) {
+  .banner {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner {
+    padding: 60px 0;
+  }
+}
 @media (max-width: 900px) {
   .banner-bg {
     box-shadow: none;

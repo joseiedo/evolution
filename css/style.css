@@ -13,3 +13,6 @@
 @import "./homepage/beneficios.css";
 @import "./homepage/planos.css";
 @import "./homepage/frase-final.css";
+
+/* contato */
+@import "./contato/contato.css";
