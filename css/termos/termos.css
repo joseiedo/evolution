@@ -1,0 +1,16 @@
+.termos-bg {
+  padding: 80px 0 120px;
+  background: var(--cor-4);
+}
+
+.termos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.termos-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
