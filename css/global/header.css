@@ -25,7 +25,10 @@
   color: var(--cor-p4);
 }
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
+  .header a {
+    font-size: 14px;
+  }
   .header {
     padding-bottom: 20px;
     flex-direction: column;
