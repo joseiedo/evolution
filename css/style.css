@@ -10,9 +10,10 @@
 
 /* homepage */
 @import "./homepage/banner.css";
-@import "./homepage/beneficios.css";
+@import "./homepage/ensino.css";
 @import "./homepage/planos.css";
 @import "./homepage/frase-final.css";
+@import "./homepage/relatos.css";
 
 /* contato */
 @import "./contato/contato.css";

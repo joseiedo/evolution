@@ -3,13 +3,15 @@
   padding: 120px 0;
 }
 
-.frase span.cor-p3 {
+.frase span.cor-p2 {
   display: block;
 }
 
 .frase p {
+  line-height: 1;
+  color: #282828;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 .frase-detalhe {
@@ -22,7 +24,7 @@
   position: absolute;
   display: inline-block;
   width: 100%;
-  background: var(--cor-p3);
+  background: var(--cor-p2);
   height: 20px;
 }
 

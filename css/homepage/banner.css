@@ -1,8 +1,8 @@
 .banner-bg {
-  background: var(--cor-3);
+  background: var(--cor-0);
   height: 100%;
   box-sizing: border-box;
-  box-shadow: inset 0px -100px 0px var(--cor-p0);
+  box-shadow: inset 0px -100px 0px var(--cor-2);
 }
 
 .banner {
@@ -23,11 +23,12 @@
   display: flex;
   gap: 20px;
   flex-direction: column;
-  align-self: flex-end;
+  align-self: center;
   padding-bottom: 100px;
 }
 
 .banner-conteudo .botao {
+  margin-top: 20px;
   width: fit-content;
 }
 

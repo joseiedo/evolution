@@ -1,5 +1,5 @@
 .footer-bg {
-  background: var(--cor-p1);
+  background: var(--cor-0);
   padding-bottom: 20px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .footer li a:hover {
-  color: var(--cor-p4);
+  color: var(--cor-p2);
 }
 
 @media (max-width: 600px) {
