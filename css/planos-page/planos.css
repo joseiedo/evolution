@@ -81,4 +81,12 @@
   .perguntas h1 {
     font-size: 36px;
   }
+
+  #planos h2 {
+    font-size: 24px;
+  }
+
+  #planos p {
+    font-size: 16px;
+  }
 }

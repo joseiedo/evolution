@@ -36,10 +36,8 @@
 .plano-estrelas {
   display: flex;
   gap: 8px;
-  position: absolute;
-  top: 0;
-  margin-top: 10px;
-  left: 33%;
+  justify-content: center;
+  align-items: center;
 }
 .plano h2 {
   display: flex;
