@@ -22,13 +22,11 @@ button.botao {
 
 button.botao {
   width: fit-content;
-  coloor: #000;
   transition: 300ms;
 }
 
 button.botao:hover {
   cursor: pointer;
-  background: var(--cor-p2);
 }
 
 .form {
@@ -53,7 +51,7 @@ button.botao:hover {
 .form textarea:focus {
   outline: none;
   border: 3px solid var(--cor-p1);
-  border-color: #9862f0;
+  border-color: #7ccfff;
   box-shadow: 0 0 0 2px var(--cor-p2);
 }
 

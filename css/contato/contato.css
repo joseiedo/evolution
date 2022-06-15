@@ -1,9 +1,19 @@
-.contato-bg,
+.contato-bg {
+  background: linear-gradient(180deg, #35a5d4 0%, #0378ff 100%);
+}
+
+#contato .botao {
+  background: rgb(255, 255, 255);
+  color: rgb(9, 53, 94);
+}
+
 .redes-sociais-bg {
-  background: var(--cor-3);
+  background: var(--cor-0-2);
 }
 
 .contato-item {
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   background: var(--cor-p1);
   display: flex;
   justify-content: space-between;
@@ -25,7 +35,7 @@
 }
 
 .contato-titulo {
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px;
 }
 
@@ -54,6 +64,10 @@
 }
 .redes-sociais-bg {
   padding: 20px 0px 120px 0px;
+  padding-top: 50px;
+}
+.redes-sociais-item {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .redes-sociais-item img {
   border-radius: 0px 0px 5px 5px;

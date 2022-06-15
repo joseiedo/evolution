@@ -1,5 +1,4 @@
 .planos-bg {
-  background: var(--cor-2);
   padding-bottom: 120px;
 }
 
@@ -15,14 +14,15 @@
 .planos-itens > ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
 
 .plano {
   background: var(--cor-3);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
+  border: 3px solid #81b5f0;
+  box-shadow: 0 0 4px rgba(68, 142, 202, 0.6);
+  border-radius: 15px;
   width: 420px;
   padding: 30px;
   box-sizing: border-box;
@@ -38,6 +38,7 @@
   gap: 8px;
   position: absolute;
   top: 0;
+  margin-top: 10px;
   left: 33%;
 }
 .plano h2 {

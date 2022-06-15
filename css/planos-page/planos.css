@@ -1,5 +1,18 @@
-.perguntas-bg {
-  background: var(--cor-4);
+#planos .planos-bg {
+  background: linear-gradient(180deg, #22b5f2 0%, #3489ed 100%);
+  padding: 80px;
+}
+
+#planos .planos h1 {
+  margin-top: 0px;
+}
+
+#planos .planos-itens > ul {
+  gap: 20px;
+}
+
+#planos .perguntas-bg {
+  background: var(--cor-0-2);
   height: 100%;
   padding-top: 85px;
   padding-bottom: 120px;
@@ -35,7 +48,7 @@
   height: 8px;
   border-radius: 20px;
   display: inline-block;
-  background: var(--cor-p4);
+  background: var(--cor-p2);
 }
 
 .perguntas dt::after {
@@ -45,6 +58,8 @@
   width: 14px;
   height: 10px;
   background: url("../../img/icons/seta.svg") no-repeat;
+  filter: grayscale(100%);
+  fill: var(--cor-p2);
   align-self: center;
   transform: rotate(180deg);
   transition: 300ms;
